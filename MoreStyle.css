@@ -1,0 +1,78 @@
+
+/*.tooltip {
+	background-color: #f7b9b9;
+	text-align: center;
+	border-color: black;
+	border-radius: 5px;
+	opacity: 0.6;
+  	padding-top: 4px;
+  	padding-bottom: 4px;
+  	padding-left: 4px;
+  	padding-right: 4px;
+  	font: 12px sans-serif;
+}*/
+
+#scatter {
+/*	width:800px;
+	height:800px;*/
+	width: 100%; height: 100%;
+  background-color: #5CDB95;
+}
+
+.tooltip {
+  line-height: 1;
+  padding: 6px;
+  background: #EDF5E1;
+  color: #379683;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.x-axis path{
+  color: #05386B;
+  stroke: #05386B;
+}
+
+.y-axis path{
+  color: #05386B;
+  stroke: #05386B;
+}
+
+.axis-text.inactive.yLabel{
+  color: #05386B;
+}
+
+.axis-text.active.yLabel{
+  font-weight: bold;
+  color: #05386B;
+}
+
+.axis-text.inactive.xLabel{
+  color: #05386B;
+}
+
+.axis-text.active.xLabel{
+  font-weight: bold;
+  color: #05386B;
+}
+
+/* Creates a small triangle extender for the tooltip */
+/*.tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}*/
+
+/* Style northward tooltips specifically */
+/*.tooltip.n:after {
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0;
+}*/
